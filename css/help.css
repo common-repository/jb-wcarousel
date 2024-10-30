@@ -1,0 +1,31 @@
+#wCarousel{
+    position: relative;
+    overflow: hidden;
+}
+
+#jb-wcarousel{
+    position: relative;
+}
+
+#wCHolder{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+}
+#wCHolder span{
+    padding: 2px 4px;
+    margin-right: 1px;
+    color: gray;
+    border: gray solid 1px;
+    font: bold 10px arial;
+    cursor: pointer;
+}
+
+#wCarousel table{
+    position: absolute;
+    vertical-align: top;
+}
+
+#jb-wcarousel{
+    display : none;
+}
